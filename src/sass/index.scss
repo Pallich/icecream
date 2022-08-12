@@ -1,0 +1,29 @@
+@import './common';
+
+// components section
+@import './components/forms/_form-field';
+@import './components/forms/input';
+@import './components/forms/checkbox';
+@import './components/grid';
+@import './components/logo';
+@import './components/nav';
+@import './components/btn';
+@import './components/container';
+@import './components/title';
+@import './components/top-text';
+@import './components/modal';
+@import './components/mobile-menu';
+@import './components/cookies-popup';
+@import './components/scroll-to-top';
+@import './components/data-form';
+
+// layout section
+@import './layout/header';
+@import './layout/hero';
+@import './layout/products';
+@import './layout/about';
+@import './layout/advantages';
+@import './layout/gallery';
+@import './layout/customer-reviews';
+@import './layout/contacts';
+@import './layout/footer';

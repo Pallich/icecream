@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <include src="./partials/head-meta.html"></include>
+    <meta name="description" content="Homemade Ice Cream made with passion" />
+    <title>ICECREAM</title>
+  </head>
+  <body>
+    <include src="./partials/header.html"></include>
+    <main>
+      <include src="./partials/hero.html"></include>
+      <include src="./partials/products.html"></include>
+      <include src="./partials/about.html"></include>
+      <include src="./partials/advantages.html"></include>
+      <include src="./partials/gallery.html"></include>
+      <include src="./partials/customer-reviews.html"></include>
+      <include src="./partials/contacts.html"></include>
+    </main>
+    <include src="./partials/footer.html"></include>
+    <include src="./partials/cookies-popup.html"></include>
+    <include src="./partials/mobile-menu.html"></include>
+    <include src="./partials/modals/modal-buy.html"></include>
+    <include src="./partials/modals/modal-about.html"></include>
+    <include src="./partials/modals/modal-locations.html"></include>
+    <include src="./partials/scroll-to-top.html"></include>
+
+    <div class="overlay js-overlay-modal"></div>
+
+    <!-- JS-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="./js/jquery.spincrement.min.js"></script>
+
+    <script
+      defer
+      src="https://cdnjs.cloudflare.com/ajax/libs/body-scroll-lock/3.1.5/bodyScrollLock.min.js"
+      integrity="sha512-HowizSDbQl7UPEAsPnvJHlQsnBmU2YMrv7KkTBulTLEGz9chfBoWYyZJL+MUO6p/yBuuMO/8jI7O29YRZ2uBlA=="
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"
+      integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init({ once: true });
+    </script>
+    <script src="./js/modal.js"></script>
+    <script src="./js/mobile-menu.js" type="module"></script>
+    <script src="./js/scroll-to.js"></script>
+    <script src="./js/hero-btn.js" type="module"></script>
+    <script src="./js/hero-circle.js" type="module"></script>
+    <script src="./js/counter.js"></script>
+    <script src="./js/cookies-popup.js"></script>
+    <script src="js/slider.js"></script>
+  </body>
+</html>
